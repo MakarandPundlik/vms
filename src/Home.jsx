@@ -4,11 +4,15 @@ import homepage from '../src/images/homepage.gif'
 function Home(props) {
     return (
        <section id="header" className="d-flex align-items-center">
-           <div className="col-lg-6 ">
+           <div className="container-fluid">
+          <div className="row col-lg-12">
+          <div className="col-lg-6 lg-oder-2 myrow">
               <h1>Something about company</h1>
+              <h2>something more about company</h2>
+              <NavLink to="/about" className="btn btn-get-started">Get Started</NavLink>
            </div>
-           <div className="col-lg-6  ">
-               <img src={homepage} alt="homepage" style={{width:'90%',height:'70%'}}/>
+           <div className="col-lg-6 lg-order-1 myrow">
+               <img src={homepage} alt="homepage" style={{width:'100%',height:'100%'}}/>
             </div>
         {/* <div className="container-fluid">
             <div className="row">
@@ -26,6 +30,8 @@ function Home(props) {
                 </div>
             </div>
         </div> */}
+        </div>
+          </div>
         </section>
     );
 }

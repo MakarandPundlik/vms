@@ -7,7 +7,7 @@
 .navbar-default .navbar-brand {
   color:#106d75;
  
-  font-size: 1.9rem;
+  font-size: 2.5rem;
 }
 .navbar-default .navbar-brand:hover{
   color:#106d75;
@@ -22,14 +22,19 @@
  border-radius: 50px!important;
   border: 0.1rem solid #106d75;
   color: #106d75;
-
+  transition: 1s;
   text-decoration: none;
   font-size: 1rem;
 }
 .btn-get-started:hover {
-  color: #106d75;
-
+  transition: 1s;
+  color: #ffffff;
+  background-color: #106d75;
 }
 h1 h2 {
   font-weight: normal;
 }
+ .myrow {
+   color: #106d75;
+   padding : 10rem 2rem;
+ }
