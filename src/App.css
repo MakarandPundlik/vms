@@ -5,31 +5,29 @@
 
 
 .navbar-default .navbar-brand {
-  color:#35bd0b;
+  color:#106d75;
  
   font-size: 1.9rem;
 }
 .navbar-default .navbar-brand:hover{
-  color:#35bd0b;
+  color:#106d75;
 }
 .menu-active {
-  color: #35bd0b;
+  color: #106d75;
   font-weight: bold;
-  border-bottom: 1px solid #35bd0b;
+  border-bottom: 1px solid #106d75;
 }
- .navbar .nav-link:hover{
-  color: #35bd0b;
-}
+ 
 .btn-get-started {
  border-radius: 50px!important;
-  border: 0.1rem solid #35bd0b;
-  color: #35bd0b;
+  border: 0.1rem solid #106d75;
+  color: #106d75;
 
   text-decoration: none;
   font-size: 1rem;
 }
 .btn-get-started:hover {
-  color: #35bd0b;
+  color: #106d75;
 
 }
 h1 h2 {
