@@ -3,17 +3,35 @@
 }
 
 
-.navbar-default .navbar {
-  background-color: #35bd0b;
-}
-.mybrand{
- font-size: 2rem;
- 
-}
+
 .navbar-default .navbar-brand {
+  color:#35bd0b;
+ 
+  font-size: 1.9rem;
+}
+.navbar-default .navbar-brand:hover{
   color:#35bd0b;
 }
 .menu-active {
+  color: #35bd0b;
   font-weight: bold;
   border-bottom: 1px solid #35bd0b;
+}
+ .navbar .nav-link:hover{
+  color: #35bd0b;
+}
+.btn-get-started {
+ border-radius: 50px!important;
+  border: 0.1rem solid #35bd0b;
+  color: #35bd0b;
+
+  text-decoration: none;
+  font-size: 1rem;
+}
+.btn-get-started:hover {
+  color: #35bd0b;
+
+}
+h1 h2 {
+  font-weight: normal;
 }
