@@ -6,10 +6,10 @@ function Home(props) {
        <section id="header" className="d-flex align-items-center">
            <div className="container-fluid">
           <div className="row col-lg-12">
-          <div className="col-lg-6 lg-oder-2 myrow">
-              <h1>Something about company</h1>
-              <h2>something more about company</h2>
-              <NavLink to="/about" className="btn btn-get-started">Get Started</NavLink>
+          <div className="col-lg-6 lg-oder-2 myrow" style={{marginTop:'5%'}}>
+              <h1>The <b>P</b>rogrammable <b>L</b>ogic <b>C</b>ompany</h1>
+              <h2>Empowered by Innovation</h2>
+              <NavLink to="/about" className="btn btn-get-started mt-3">Get Started</NavLink>
            </div>
            <div className="col-lg-6 lg-order-1 myrow">
                <img src={homepage} alt="homepage" style={{width:'100%',height:'100%'}}/>
