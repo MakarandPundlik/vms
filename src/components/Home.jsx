@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import homepage from '../src/images/homepage.gif'
+import homepage from '../../src/images/homepage.gif'
 function Home(props) {
     return (
        <section id="header" className="d-flex align-items-center">
