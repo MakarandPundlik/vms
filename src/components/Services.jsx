@@ -7,7 +7,7 @@ function Services(props) {
         <div>
             <div className="my-5">
             <h1 className="text-center" style={{color:'#106d75'}}>We are Experienced in</h1>
-            <hr style={{color:' #106d75',margin:'3rem'}}/>
+            <hr />
             </div>
 
            

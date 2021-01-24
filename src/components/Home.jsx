@@ -12,7 +12,7 @@ function Home(props) {
               <NavLink to="/about" className="btn btn-get-started mt-3">Get Started</NavLink>
            </div>
            <div className="col-lg-6 lg-order-1 myrow">
-               <img src={homepage} alt="homepage" style={{width:'100%',height:'100%'}}/>
+               <img src={homepage} alt="homepage" style={{width:'100%',height:'110%'}}/>
             </div>
         {/* <div className="container-fluid">
             <div className="row">

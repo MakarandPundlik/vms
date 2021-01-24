@@ -4,7 +4,9 @@
 }
 
 
-
+ .navbar-toggler .custom-toggler{
+  border-color: #106d75;
+}
 .navbar-default .navbar-brand {
   color:#106d75;
   font-weight: bold;
@@ -36,4 +38,8 @@
  .myrow {
    color: #106d75;
    padding : 10rem 2rem;
+ }
+
+ hr{
+   margin: 3rem;
  }
