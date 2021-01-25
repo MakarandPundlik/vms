@@ -16,6 +16,7 @@ function About(props) {
                 ValuesData.map((val)=>{
                     return(
                         <ValuesCard 
+                            key={Math.random()*10}
                             title={val.title}
                             text={val.text}
                         />

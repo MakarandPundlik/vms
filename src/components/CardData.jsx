@@ -8,8 +8,8 @@ const CardData = [
     {
         imgsrc:Schneider,
         title:'Schneider',
-        details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
-        web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
+        details:'Schneider Electrics purpose is to empower all to make the most of our energy and resources, bridging progress and sustainability for all. We call this Life Is On. ',
+        web:'https://www.se.com/in/en/'
     },
     {
         imgsrc:ABB,
@@ -26,14 +26,14 @@ const CardData = [
     {
         imgsrc:siemens,
         title:'Siemens',
-        details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
-        web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
+        details:'Siemens AG (Berlin and Munich) is a global technology powerhouse that has stood for engineering excellence, innovation, quality, reliability and internationality for more than 170 years.',
+        web:'https://www.siemens.com/'
     },
     
     {
         imgsrc:gefanuc,
         title:'GE-Fanuc',
-        details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
+        details:'FANUC is a Japanese group of companies that provide automation products and services such as robotics and computer numerical control wireless systems.',
         web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
     },
     {
