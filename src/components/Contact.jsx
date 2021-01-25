@@ -19,9 +19,24 @@ function Contact(props) {
         </div>
         
         </div>
-
+        <div className="row">
        
-       
+        
+        <h4 className="text-center" style={{fontWeight:'bolder'}}>Contact Us</h4>
+        
+        <div className="col-sm-12 col-md-4 py-5">
+        <ion-icon name="mail-sharp"></ion-icon>
+        <h5>vmscontrols@gmail.com</h5>
+        </div>    
+        <div className="col-sm-12 col-md-4 py-5">
+        <ion-icon name="call-outline"></ion-icon>
+        <h5>020-24364027</h5>
+        </div>    
+        <div className="col-sm-12 col-md-4 py-5">
+        <ion-icon name="logo-linkedin"></ion-icon>
+        <h5>vmscontrols@gmail.com</h5>
+        </div>        
+        </div>
     </div>
     );
 }

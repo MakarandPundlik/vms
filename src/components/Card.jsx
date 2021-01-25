@@ -5,7 +5,7 @@ function Card(props) {
     return (
   
         
-                <div className=" col-md-6 col-lg-4 col-10  mx-auto">
+                <div className="col-10 col-md-6 col-lg-4  mx-auto">
                     <div className="card" style={{width: "18rem"}}>
                     <img src={props.imgsrc} className="card-img-top" alt={props.title}/>
                     <div className="card-body">
