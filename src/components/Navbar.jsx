@@ -23,7 +23,7 @@ function Navbar(props) {
           <NavLink exact activeClassName="menu-active" className="nav-link" to="/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink exact activeClassName="menu-active" className="nav-link" to="/contact">Contact</NavLink>
+          <NavLink exact activeClassName="menu-active" className="nav-link" to="/contact">Working with us</NavLink>
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="menu-active" className="nav-link" to="/services">Services</NavLink>

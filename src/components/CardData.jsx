@@ -6,6 +6,12 @@ import gefanuc from '../../src/images/gefanuc.jpg';
 import mitsubishi from '../../src/images/mitsubishi.jpg';
 const CardData = [
     {
+        imgsrc:Schneider,
+        title:'Schneider',
+        details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
+        web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
+    },
+    {
         imgsrc:ABB,
         title:'ABB',
         details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
@@ -23,12 +29,7 @@ const CardData = [
         details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
         web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
     },
-    {
-        imgsrc:Schneider,
-        title:'Schneider',
-        details:'We have a complete portfolio of industrial technology products for customers in utilities, industry, transport and infrastructure.',
-        web:'https://www.rockwellautomation.com/en-in/products/hardware/allen-bradley.html'
-    },
+    
     {
         imgsrc:gefanuc,
         title:'GE-Fanuc',
