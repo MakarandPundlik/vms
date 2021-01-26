@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import isValid from '../validator/Validate';
+import firebase from '../Firebase';
 function Contact(props) {
     
     const [state,setState] = useState({
@@ -17,7 +18,13 @@ function Contact(props) {
 
         let promt = '';
        if(isValid(profile))
-       promt='Than You for your Response';
+       {
+            firebase.firestore().collection('test').add({
+                email:profile.email,
+                questions:profile.questions
+            });
+           promt='Than You for your Response'
+       }
         
        else promt='Please check your emailid';
 
