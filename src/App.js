@@ -1,6 +1,4 @@
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-
-
 import { BrowserRouter, Switch , Route, Redirect} from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
@@ -8,7 +6,9 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Services from './components/Services';
+
 function App() {
+
   return (
     <div className="App">
       
