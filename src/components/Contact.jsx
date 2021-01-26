@@ -1,6 +1,28 @@
-import React from 'react';
-
+import React,{useState} from 'react';
+import isValid from '../validator/Validate';
 function Contact(props) {
+    
+    const [state,setState] = useState({
+        email:'',
+        questions:''
+    });
+    const handleChange = (e) =>{
+        setState({...state,[e.target.id]:e.target.value});
+    }
+
+    const handleSubmit = () =>{
+        let profile={};
+        profile.email=state.email;
+        profile.questions=state.questions
+
+        let promt = '';
+       if(isValid(profile))
+       promt='Than You for your Response';
+        
+       else promt='Please check your emailid';
+
+       alert(promt);
+    }
     return (
         <div className="container-fluid">
              <h3 style={{fontWeight:'bolder'}} className="my-5 text-cnter">Drop us a line...</h3>
@@ -9,13 +31,13 @@ function Contact(props) {
        
         <div className="mb-3 ">
         <label for="exampleFormControlInput1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com" />
+        <input type="email" className="form-control" id="email" placeholder="name@example.com" onChange={(e)=>handleChange(e)}/>
         </div>
         <div className="mb-3">
         <label for="exampleFormControlTextarea1" className="form-label">Have any Questions?</label>
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <textarea className="form-control" id="questions" rows="3"  onChange={(e)=>handleChange(e)}></textarea>
             </div>
-            <div className="btn btn-get-started mt-3" onClick={()=>alert('Thank You for your Response')}>Submit</div>
+            <div className="btn btn-get-started mt-3" onClick={(e)=>handleSubmit(e)}>Submit</div>
         </div>
         
         </div>
@@ -29,7 +51,7 @@ function Contact(props) {
         <h5>vmscontrols@gmail.com</h5>
         </div>    
         <div className="col-sm-12 col-md-4 py-5">
-        <ion-icon name="call-outline"></ion-icon>
+        <ion-icon name="call-sharp"></ion-icon>
         <h5>020-24364027</h5>
         </div>    
         <div className="col-sm-12 col-md-4 py-5">

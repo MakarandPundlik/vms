@@ -6,6 +6,11 @@ function About(props) {
         <div>
              <div className="my-5 mx-2 text-center ">
                  <h2 style={{fontWeight:'bold'}}>We are VMS Controls and we build Control Panels</h2>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                     Sed sodales, felis sed lobortis elementum, ante nisl accumsan lorem, eget interdum ante sem ut tortor. Proin ex augue, maximus et bibendum ut, aliquam eget metus. Nullam varius, nunc eu dictum pulvinar, lacus orci feugiat felis, at pretium purus mi id augue. 
+                     Integer iaculis sodales volutpat. Curabitur a ante malesuada, pharetra ipsum id, consectetur arcu. Morbi in felis et mi hendrerit ornare a ac mauris. Cras vitae dolor imperdiet, cursus lacus vel, efficitur turpis. Proin fermentum ante sit amet dignissim sagittis.
+                      Vestibulum aliquam luctus sagittis. Donec eu libero a nunc venenatis varius eu vitae libero. Aenean feugiat tristique augue, ac volutpat velit auctor eget.</p>
+                      <h4 className="text-right">- Milind Pundlik<br/><h5>proprietor VMS Controls</h5></h4>
                  <hr/>
              </div>
             <div className="my-5 mx-2 text-center ">
