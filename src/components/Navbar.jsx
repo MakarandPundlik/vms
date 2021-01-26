@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 function Navbar(props) {
     return (
         <div className="container-fluid">
@@ -27,6 +27,9 @@ function Navbar(props) {
         </li>
         <li className="nav-item">
           <NavLink exact activeClassName="menu-active" className="nav-link" to="/services">Services</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink exact activeClassName="menu-active" className="nav-link" to="/career">Guidance</NavLink>
         </li>
        </ul>
       

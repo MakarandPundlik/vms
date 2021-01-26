@@ -11,7 +11,8 @@ function Contact(props) {
         setState({...state,[e.target.id]:e.target.value});
     }
 
-    const handleSubmit = () =>{
+    const handleSubmit = (e) =>{
+        e.preventDefault();
         let profile={};
         profile.email=state.email;
         profile.questions=state.questions
@@ -23,11 +24,15 @@ function Contact(props) {
                 email:profile.email,
                 questions:profile.questions
             });
-           promt='Than You for your Response'
+           promt='Thank You for your Response'
        }
         
        else promt='Please check your emailid';
 
+       setState({
+           email:'',
+           questions:''
+       });
        alert(promt);
     }
     return (
@@ -38,11 +43,11 @@ function Contact(props) {
        
         <div className="mb-3 ">
         <label for="exampleFormControlInput1" className="form-label">Email address</label>
-        <input type="email" className="form-control" id="email" placeholder="name@example.com" onChange={(e)=>handleChange(e)}/>
+        <input type="email" value={state.email} className="form-control" id="email" placeholder="name@example.com" onChange={(e)=>handleChange(e)}/>
         </div>
         <div className="mb-3">
         <label for="exampleFormControlTextarea1" className="form-label">Have any Questions?</label>
-        <textarea className="form-control" id="questions" rows="3"  onChange={(e)=>handleChange(e)}></textarea>
+        <textarea className="form-control" value={state.questions} id="questions" rows="3"  onChange={(e)=>handleChange(e)}></textarea>
             </div>
             <div className="btn btn-get-started mt-3" onClick={(e)=>handleSubmit(e)}>Submit</div>
         </div>
