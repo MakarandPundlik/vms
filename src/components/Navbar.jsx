@@ -1,6 +1,7 @@
 import React from 'react';
 import '../App.css';
 import {NavLink} from 'react-router-dom';
+import logo from '../images/logo.png';
 function Navbar(props) {
     return (
         <div className="container-fluid">
@@ -10,6 +11,7 @@ function Navbar(props) {
            
   <nav className="navbar navbar-expand-lg navbar-light  navbar-default">
   <div className="container-fluid">
+    <img src={logo} style={{height:'3rem',width:'3rem'}} className="m-2" alt="logo"></img>
     <div className="navbar-brand " >VMS Controls</div>
     <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -28,9 +30,7 @@ function Navbar(props) {
         <li className="nav-item">
           <NavLink exact activeClassName="menu-active" className="nav-link" to="/services">Services</NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink exact activeClassName="menu-active" className="nav-link" to="/career">Guidance</NavLink>
-        </li>
+      
        </ul>
       
     </div>
