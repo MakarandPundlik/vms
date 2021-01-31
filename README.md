@@ -6,3 +6,4 @@
 - [ ] Chnage font
 - [ ] Add proprietor's message
 - [ ] Add date while submitting responses
+- [x] Add today's date()
