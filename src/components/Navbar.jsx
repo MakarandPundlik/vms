@@ -11,7 +11,7 @@ function Navbar(props) {
            
   <nav className="navbar navbar-expand-lg navbar-light  navbar-default">
   <div className="container-fluid">
-    <img src={logo} style={{height:'7rem',width:'7rem'}} className="m-4" alt="logo"></img>
+    <img src={logo} style={{height:'7rem',width:'7rem'}} className="m-2" alt="logo"></img>
     {/* <div className="navbar-brand " >VMS Controls</div> */}
     <button className="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>

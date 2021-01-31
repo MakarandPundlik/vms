@@ -5,7 +5,8 @@ function Contact(props) {
     
     const [state,setState] = useState({
         email:'',
-        questions:''
+        questions:'',
+       
     });
     const handleChange = (e) =>{
         setState({...state,[e.target.id]:e.target.value});
@@ -15,14 +16,16 @@ function Contact(props) {
         e.preventDefault();
         let profile={};
         profile.email=state.email;
-        profile.questions=state.questions
+        profile.questions=state.questions;
+        profile.today = new Date();
 
         let promt = '';
        if(isValid(profile))
        {
             firebase.firestore().collection('test').add({
                 email:profile.email,
-                questions:profile.questions
+                questions:profile.questions,
+                Date : profile.today.getDate()+'-'+parseInt(profile.today.getMonth()+1)+'-'+profile.today.getFullYear()
             });
            promt='Thank You for your Response'
        }
