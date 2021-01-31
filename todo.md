@@ -1,4 +1,5 @@
 ## To Dos
-1. Create Linked In porifle of VMS.
-2. Add proprietor's message.
-3. Add carrer section.
+- [ ] Create Linked In profile for VMS
+- [ ] Chnage font
+- [ ] Add proprietor's message
+- [ ] Add date while submitting responses
