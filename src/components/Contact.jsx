@@ -62,7 +62,7 @@ function Contact(props) {
         <h4 className="text-center" style={{fontWeight:'bolder'}}>Contact Us</h4>
         
         <div className="col-sm-12 col-md-4 py-5">
-        <ion-icon name="mail-sharp"></ion-icon>
+        <a href="mailto : vmscontrols@gmail.com"><ion-icon name="mail-sharp"></ion-icon></a>
         <h5>vmscontrols@gmail.com</h5>
         </div>    
         <div className="col-sm-12 col-md-4 py-5">
@@ -70,7 +70,7 @@ function Contact(props) {
         <h5>020-24364027</h5>
         </div>    
         <div className="col-sm-12 col-md-4 py-5">
-        <ion-icon name="logo-linkedin"></ion-icon>
+        <a href="https://www.linkedin.com/in/automation12345/"><ion-icon name="logo-linkedin"></ion-icon></a>
         <h5>vmscontrols@gmail.com</h5>
         </div>        
         </div>
