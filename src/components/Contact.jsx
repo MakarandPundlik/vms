@@ -50,7 +50,7 @@ function Contact(props) {
         </div>
         <div className="mb-3">
         <label for="exampleFormControlTextarea1" className="form-label">Have any Questions?</label>
-        <textarea className="form-control" value={state.questions} id="questions" rows="3"  onChange={(e)=>handleChange(e)}></textarea>
+        <textarea className="form-control" value={state.questions} id="questions" rows="1"  onChange={(e)=>handleChange(e)}></textarea>
             </div>
             <div className="btn btn-get-started mt-3" onClick={(e)=>handleSubmit(e)}>Submit</div>
         </div>
@@ -62,7 +62,7 @@ function Contact(props) {
         <h4 className="text-center" style={{fontWeight:'bolder'}}>Contact Us</h4>
         
         <div className="col-sm-12 col-md-4 py-5">
-        <a href="mailto : vmscontrols@gmail.com"><ion-icon name="mail-sharp"></ion-icon></a>
+       <ion-icon name="mail-sharp"></ion-icon>
         <h5>vmscontrols@gmail.com</h5>
         </div>    
         <div className="col-sm-12 col-md-4 py-5">
